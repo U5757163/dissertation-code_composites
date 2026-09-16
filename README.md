@@ -13,28 +13,3 @@ The project is structured into three sequential modules:
 * **`03_mcmc_inference/`**: NUTS MCMC sampling using NumPyro, prior GMM modeling via BIC, chain diagnostics, and out-of-distribution (OOD) testing.
 
 ---
-
-## Quick Start & Dependencies
-
-### Global Requirements
-To install all necessary environment dependencies across all modules:
-
-# General Numerical & Data Processing
-numpy>=2.0.0
-scipy
-pandas
-matplotlib
-scikit-learn
-
-# Finite Element & Mesh Generation (01_data_generation)
-gmsh
-scikit-fem
-
-# JAX Ecosystem & GP Surrogate Modeling (02_gp_surrogate)
-jax
-jaxlib
-jaxopt
-tinygp
-
-# Bayesian MCMC Inference (03_mcmc_inference)
-numpyro
